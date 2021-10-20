@@ -1,7 +1,7 @@
 import React from 'react'
 import WebSite from './components/WebSite'
 import AboutMe from './components/AboutMe'
-import Contact from '../Shared/Contact'
+import Contact from '../../components/Shared/Contact'
 import '../../styles/Home/Main.scss'
 
 const Home = () => {
