@@ -1,0 +1,21 @@
+footer{
+    background: #33323D;
+    padding-block: 20px;
+    .FooterContainer{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div{
+            width: 100px;
+            display: flex;
+            justify-content: space-between;
+            a{
+                img{
+                    filter: invert(1);
+                }
+            }
+        }
+    }
+}

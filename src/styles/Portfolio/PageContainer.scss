@@ -1,0 +1,50 @@
+.PageContainerElement{
+    margin-bottom: 30px;
+    img{
+        width: 100%;
+        border-radius: 5px;
+    }
+    div{
+        margin-top: 20px;
+        padding-block: 30px;
+        border-bottom: 1px solid rgb(187, 187, 187);
+        border-top: 1px solid rgb(187, 187, 187);
+        h3{
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+        p{
+            font-size: 1.1rem;
+            line-height: 25px;
+            margin-bottom: 25px;
+        }
+        a{
+            padding: 10px 20px;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            border: 1px solid rgb(66, 66, 66);
+            color: rgb(49, 49, 49);
+            &:hover{
+                box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.05);
+            }
+        }
+    }
+    @media (min-width: 600px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 90px;
+        div{
+            margin: 0px;
+            width: 80%;
+            margin: 0px auto; 
+        }
+        &.GridContainer{
+            img{
+                grid-column-start: 2;
+            }
+            div{
+                grid-row-start: 1;
+            }
+        }
+    }
+}
